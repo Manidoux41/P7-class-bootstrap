@@ -23,15 +23,19 @@ export class RecipesList {
     </form>
 
     <main>
-        <div class="btn-group mb-4" role="group">
-            <button type="button" class=" btn btn-outline-primary active" data-filter="all">Toutes</button>
-            <button type="button" class=" btn btn-outline-primary" data-filter="todo">A faire</button>
-            <button type="button" class=" btn btn-outline-primary" data-filter="done">Faites</button>
+        <div class="container row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="recipes-list">
+            <div class shadow-sm>
+                <div card-body>
+                    Test
+                </div>
+                <div card-body>
+                    Test
+                </div>
+                <div card-body>
+                    Test
+                </div>
+            </div>
         </div>
-
-        <ul class="list-group">
-            <li>test</li>
-        </ul>
     </main>
         `
     }
